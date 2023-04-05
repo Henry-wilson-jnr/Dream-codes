@@ -264,8 +264,8 @@ position:absolute;
 
 .courses{
 	
-background:linear-gradient(to bottom,#63C5DA -60%, #63C5DA -100%, black 50%, black 60%, gainsboro 100%, black 100%);
-height:450vh;
+background:linear-gradient(to bottom,#63C5DA -60%, #63C5DA -100%, black 50%, black 83%, black 23%,gainsboro 100%);
+height:350vh;
 
 }
 
@@ -332,8 +332,79 @@ box-shadow:0px 0px 3px 3px;
 
 
 
+.articles h2{
+	color:white;
+	position:absolute;
+	bottom:-3300px;
+	right:450px;
+	font-size:70px;
+	font-family:Quicksand,sans-serif;		
+}
+
+.articles h3{
+	
+	color:white;
+	position:absolute;
+	bottom:-3400px;
+	right:190px;
+	font-size:20px;
+	font-family:Quicksand,sans-serif;	
+
+}
+
+.articles h4{
+color:white;
+position:absolute;
+bottom:-3590px;
+right:700px;
+font-size:20px;
+}
+
+.articles a{
+	color:white;
+position:absolute;
+right:10px;
+bottom:-100px;
+text-transform:uppercase;
+text-decoration:none;
+}
+
+.articles a:hover{
+color:green;
+text-decoration:none;
+}
 
 
+.comments{
+	
+	--num-cols:2;
+	--row-height: 10px;
+	
+	display:grid;
+	box-sizing:border-box;
+		padding:3em;
+	gap:1em;
+height:70vh;
+	display:grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	
+}
+
+.comments h2{
+	position:absolute;
+	right:300px;
+	bottom:-4000px;
+	font-size:50px;
+	font-family:Quicksand,sans-serif;
+	
+}
+
+
+.comments .message{
+	color:black;
+	
+}
 
 
 
