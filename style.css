@@ -5,6 +5,7 @@
 	justify-content:center;
 }
 
+
 img{
 	padding:0;
 	margin:0;
@@ -43,29 +44,33 @@ nav ul li:hover{
 	
 }
 
+
+header{
+	background:url("Gallery/2.jpeg");
+	box-sizing:border-box;
+background-size:cover;
+	width:auto;
+	height:100vh;
+	
+}
+
 .code{
 	position:absolute;
 	top:250px;
-	right:370px;
+	right:340px;
 	bottom:-150px;
 	color:white;
 	font-size:30px;
-	font-style:;
 	
 }
 
 .code h2{
 	font-size:80px;
+
 	
 }
 
 
-header{
-	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("Gallery/2.jpeg");
-	background-position:center;
-	height:100vh;
-	background-size:cover;
-}
 
 .btn{
 	 position:absolute;
@@ -86,11 +91,11 @@ header{
 
 .container{
 	background-color:#160d08;
-padding:5em;
+padding:-2em;
 	width:100%;
 	height:65vh;
 	color:white;
-	justify-content:evenly;
+	justify-content:center;
 	align-items:center;
 }
 
@@ -104,14 +109,14 @@ padding:5em;
 	color:black;
 	border-radius:12px;
 position:absolute;
-bottom:-370px;
+bottom:-350px;
 
 }
 
 .container .container1 h5{
 	margin:5px;
 	position:absolute;
-	bottom:200px;
+	bottom:190px;
 	left:100px;
 font-size:30px;
 }
@@ -135,14 +140,14 @@ font-size:30px;
 	color:black;
 	border-radius:12px;
 position:absolute;
-bottom:-370px;
+bottom:-350px;
 }
 
 
 .container .container2 h5{
 	margin:5px;
 	position:absolute;
-	bottom:200px;
+	bottom:190px;
 	left:100px;
 font-size:30px;
 }
@@ -169,14 +174,14 @@ font-size:30px;
 	color:black;
 	border-radius:12px;
 position:absolute;
-bottom:-370px;
+bottom:-350px;
 }
 
 
 .container .container3 h5{
 	margin:5px;
 	position:absolute;
-	bottom:210px;
+	bottom:200px;
 	left:100px;
 font-size:30px;
 }
@@ -204,8 +209,8 @@ font-size:30px;
 
 .message-container .message h2{
 	position:absolute;
-	right:350px;
-	bottom:-550px;
+	right:220px;
+	bottom:-490px;
 	font-size:65px;
 		
 }
@@ -213,17 +218,17 @@ font-size:30px;
 
 .message-container .message h3{
 	position:absolute;
-	right:90px;
-	bottom:-650px;
-	font-size:20px;
+	right:40px;
+	bottom:-590px;
+	font-size:18px;
 	font-style:italic;
 	
 }
 
 .message-container .message img{
 	position:absolute;
-	bottom:-920px;
-	right:600px;
+	bottom:-800px;
+	right:500px;
 	width:200px;
 	height:30vh;
 	border-radius:50%
@@ -231,19 +236,20 @@ font-size:30px;
 
 .message h4{
 	position:absolute;
-	bottom:-950px;
-	right:590px;
+	bottom:-840px;
+	right:490px;
 	font-size:20px;
-	font-style:italic;
+font-family:quicksand,sans-serif;
 	
 }
 
 .message h5{
 	position:absolute;
-	bottom:-980px;
-	right:590px;
+	bottom:-860px;
+	right:490px;
 	font-size:15px;
 	padding:-1em;
+	font-style:italic;
 }
 
 
@@ -252,13 +258,13 @@ font-size:30px;
 	background:gainsboro;
 	color:black;
 
-	height:60vh;
+	height:100vh;
 }
 
 .ads-container .ads{
 position:absolute;
-	bottom:-1250px;
-	right:300px;
+	bottom:-1099px;
+	right:200px;
 	
 }
 
@@ -310,12 +316,18 @@ box-shadow:0px 0px 3px 3px;
 .lesson h2{
 	display:flex;
 	float:right;
-	padding:2em;
+	padding:1em;
 	color:white;
-	font-size:70px;
+	font-size:60px;
 	font-family:Quicksand,sans-serif;
 }
 
+.lesson{
+	
+	bottom:-2950px;
+	left:42em;
+	
+}
 
 .lesson h3{
 	position:absolute;
@@ -384,8 +396,9 @@ height:120vh;
 
 	position:absolute;
 	right:190px;
-	bottom:-4000px;
-	font-size:40px;
+	bottom:-3770px;
+	font-size:30px;
+
 	font-family:Quicksand,sans-serif;
 	
 }
@@ -398,7 +411,7 @@ width:500px;
 height:30vh;
 	color:black;
 
-box-shadow:0px 5px 7px 0px;
+box-shadow:0px  2px 3px 0px;
 padding:2em;
 
 }
@@ -407,26 +420,24 @@ padding:2em;
 display:flex;
 flex-wrap:wrap;
 box-sizing:border-box;
-margin-bottom:-20px;
+margin-bottom:-40px;
 gap:3em;
 padding:3em;
 background-color:white;
 		cursor:pointer;
+		font-family:quicksand,sans-serif;
 }
 
 
 .message-container1 :hover{
-	box-shadow:0px 9px 5px 0px;
+	box-shadow:1px 8px 5px 1px;
 	cursor:pointer;
 }
 
-.message-container1 .message1 h6{
-	position:absolute;
-	bottom:-4250px;
-	right:990px;
-	font-family:Quicksand,sans-serif;
+.message-container1 .message1{
+	font-size:12px;
+	
 }
-
 
 
 
